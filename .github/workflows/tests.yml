@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   test-and-benchmark:
-    runs-on: [self-hosted, Windows]
+    runs-on: [self-hosted, Windows, X64]
 
     steps:
       - name: Set up Git repository
